@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+<style>
+body:not(:hover) {
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar{
+    background-color: rgba(44, 44, 44, 0.911);
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+      background-color: #888;
+    }
+
+::-webkit-scrollbar-thumb:hover{
+    background-color:black;
+}
+
+body{
+    background-image: url("images/landingbg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+#pics, #head, #laman{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#logo, #name {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 20px; 
+}
+#logopic {
+    display: flex;
+    height: 320px;
+    width: 330px;
+    border-radius: 100%;
+    border-color: rgb(255, 233, 38);
+    border-style: groove;
+    border-width: 1px;
+    padding: 10px;
+    margin-right: 0;
+}
+#namepic {
+    height: 200px;
+    width: 900px;
+}
+#kk{
+    margin-bottom: 0;
+}
+#line {
+    display: flex;
+    color: white;
+    margin-top: 0;
+    margin-left: 0px;
+}
+#head {
+    display: flex;
+    color: white;
+    margin-top: 0;
+    margin-left: -80px;
+    font-size: 40px;
+    font-family:fantasy;
+    margin-bottom: 0;
+}
+#laman{
+    display: flex;
+    color: white;
+    margin-top: 2px;
+    margin-left: 500px;
+    margin-right: 50px;
+    font-size: 20px;
+    font-family:fantasy;
+    margin-bottom: 0;
+    align-items: center;
+    letter-spacing: 1px;
+
+}
+#box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#mainbox {
+            display: flex;
+            flex-direction: row; 
+            justify-content: space-around; 
+            margin-top: 20px; 
+        }
+
+        #box1,
+        #box2 {
+            width: 40%; 
+            padding: 20px;
+            background-color: rgba(255, 255, 255, 0.171); 
+            border-radius: 10px;
+            margin: 10px;
+            color: white;
+        }
+#pb1{
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#pb2{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+#login{
+    text-decoration: none;
+    align-items: center;
+}
+#log{
+    text-decoration: none;
+    align-items: center;
+    background-color: chartreuse;
+    border-radius: 10px;
+}
+
+#log a{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    font-size: 30px;
+}
+
+</style>
+</head>
+<body>
+<div id="pics">
+    <div id="logo">
+       <img src="images/two.png" id="logopic">
+    </div>
+
+    <div id="name">
+        <img src="images/kk.png" id="namepic">
+        <p id="line">____________________________________________________________________________________________________</p>
+    </div>
+
+</div>
+
+<p id="head">PINOY STREET FOODS</p>
+<p id="laman">Spice up your business with our frozen street food treasures! We're your go-to supplier for crispy deep-fried delights and smokin' BBQ sensations. Elevate your offerings and turn every bite into a crowd-pleasing experience. Ready to redefine the frozen food game? </p>
+
+<div id="mainbox">
+    <div id="box1"> 
+        <p id="pb1">What we have?</p>
+        <p id="pb2">DEEP FRIED STREETS FOODS. Unlock the gateway to an affordable and entrepreneurial journey with our frozen deep-fried street food packs. Tailored for those venturing into the business realm, our budget-friendly offerings ensure a delectable starting point. Take the plunge into the world of street food entrepreneurship, where quality meets affordability, making your business dreams a flavorful reality. </p>
+
+    </div>
+
+    <div id="box2"> 
+        <p id="pb1">What we have?</p>
+        <p id="pb2">BBQ IHAW STREET FOODS, Embark on a budget-friendly entrepreneurial venture with our frozen BBQ Ihaw street food packs. Perfect for those starting a business, our affordable offerings bring the irresistible flavors of grilled delights to your fingertips. Ignite your business journey with quality and affordability, turning your BBQ dreams into a sizzling success. </p>
+    </div>
+</div>
+
+
+<div id="log">
+    <a href="include/login.php"><p id="login"><center> LOGIN </center></p></a>
+</div>
+
+<script>
+
+</script>   
+</body>
+</html>
